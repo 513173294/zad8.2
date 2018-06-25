@@ -1,7 +1,8 @@
 public class Circle extends GeometricShape {
 
+double r;
 
-    public Circle(double x) {
-        super(x);  // promień
+    public Circle(double r) {
+        this.r = r;
     }
 }

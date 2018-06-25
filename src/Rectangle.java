@@ -1,9 +1,11 @@
 public class Rectangle extends GeometricShape {
     int bok;
+    double x;
 
-    public Rectangle(double x, int bok) {
-        super(x);
+    public Rectangle( int bok, double x) {
+
         this.bok = bok;
+        this.x = x;
     }
 }
 

@@ -1,10 +1,11 @@
 public class Cube extends Shape3D {
+    double a; //bok podstawy
     int b; //bok podstawy
     int h; //wysokosc
 
 
-    public Cube(double x, int b, int h) {
-        super(x);
+    public Cube(double a, int b, int h) {
+        this.a = a;
         this.b = b;
         this.h = h;
     }

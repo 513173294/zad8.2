@@ -1,7 +1,8 @@
 public class Ball extends Shape3D {
 
+double r;
 
-    public Ball(double x) {
-        super(x); //promień
+    public Ball(double r) {
+        this.r = r;
     }
 }
